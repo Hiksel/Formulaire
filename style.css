@@ -1,0 +1,320 @@
+
+button {
+    width: 75px;
+    height: 40px;
+    resize: none;
+
+}
+
+
+
+#champ-message { 
+    height: 200px;
+    max-height: 300px;
+    max-width: 230px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#champ-mail {
+    width: 200px;
+    height: 21px;
+    resize: none;
+    margin-bottom: 15px;
+    margin-top: 15px
+    
+}
+
+#champ-nom {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+#champ-latin {
+    font-size: 20px;
+    height: 240px;
+    width: 660px;
+    max-height: 240px;
+    max-width: 660px;
+
+    resize: none
+    
+
+}
+
+#champ-morse {
+    font-size: 20px;
+    height: 240px;
+    width: 660px;
+    max-height: 240px;
+    max-width: 660px;
+    resize: none
+}
+
+#fleches {
+    font-size: 120px;
+    margin-top: -20px;
+
+}
+
+#morse-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#boutons-morse {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#bouton-trad-morse {
+width: 150px;
+}
+
+#bouton-trad-latin {
+width: 150px;
+}
+
+
+
+
+#bouton-trad {
+width: 100px;
+margin-top: 17px;
+}
+
+
+#boutons-morse button {
+  font-size: 20px;
+  padding: 10px 16px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #7a4a4a 0%, #8b5a5a 40%, #9c6a5a 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  text-align: center;
+  color: #f0e8e0;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: italic;
+  padding: 20px 0 16px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.creators-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.creator-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 18px 24px;
+  gap: 20px;
+  min-height: 110px;
+}
+
+.creator-row:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.avatar-cell {
+  flex-shrink: 0;
+}
+
+.pfp {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #555;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+}
+
+.pfp-lucas {
+  background-image: url(images/orv\ pfp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.pfp-aksel {
+  background-image: url(images/zazu.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pfp-roshith {
+  background-image: url(images/zoro-modified.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.info-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.pseudo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f0e8e0;
+  display: inline;
+}
+
+.pseudo-lucas {
+  font-family: 'Courier New', cursive;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.pseudo-aksel {
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.pseudo-roshith {
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.citation {
+  font-style: italic;
+  color: #e8d8c8;
+  font-size: 14px;
+}
+
+.citation-italique {
+  font-family: Georgia, serif;
+}
+
+.contact {
+  font-size: 13px;
+  color: #d0c0b0;
+  text-align: right;
+  margin-top: 4px;
+} 
+
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    background: linear-gradient(to right, #bfa89b, #593e42);
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.boite-titre {
+    border: 2px solid black;
+    padding: 10px 30px;
+    display: inline-block; 
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0;
+    font-size: 26px;
+}
+
+header p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.ovale-gris {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-color: #b5b5b5;
+    border-radius: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.lien-createurs {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    text-align: right;
+    width: 250px;
+}
+
+.ovale-gris-petit {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: #b5b5b5;
+    border-radius: 50px;
+}
